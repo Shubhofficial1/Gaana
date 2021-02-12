@@ -1,0 +1,70 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 17%;
+  min-width: 220px;
+  border-right: 1px solid rgba(234, 237, 237);
+}
+
+@media screen and (max-width: 799px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.sidebar__logo > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #6930c3;
+  margin-right: 8px;
+}
+
+.sidebar__logo > h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__top {
+}
+
+.sidebar__top > h4 {
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.listtile {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 20px;
+}
+
+.listtile__logo {
+  margin-right: 15px;
+  color: #394867;
+}
+
+.listtile__title {
+  font-size: 12px;
+  color: #5b5b5b;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}

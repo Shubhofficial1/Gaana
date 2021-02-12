@@ -1,0 +1,89 @@
+.home {
+  /* height: 100vh;
+  width: 100vw; */
+  padding: 20px;
+}
+
+.home__title {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+.one {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.home__global {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__global__title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+}
+
+.home__global__seeall {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-right: 20px;
+}
+
+.song__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* overflow-x: scroll; */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  min-width: 140px;
+  height: 160px;
+  margin: 15px;
+  border-radius: 12px;
+  border: 1px solid #fbf6f0;
+  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.card__name {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+}
+
+.card__singer {
+  font-size: 10px;
+  font-weight: 600;
+  color: #999b84;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+}
