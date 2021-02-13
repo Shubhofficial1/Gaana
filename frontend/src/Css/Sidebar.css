@@ -1,12 +1,14 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 17%;
+  position: absolute;
+  left: 0px;
+  /* width: 17%; */
   min-width: 220px;
   border-right: 1px solid rgba(234, 237, 237);
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 1100px) {
   .sidebar {
     display: none;
   }
@@ -36,8 +38,8 @@
   flex-direction: column;
 }
 
-.sidebar__top {
-}
+/* .sidebar__top {
+} */
 
 .sidebar__top > h4 {
   margin-left: 30px;
@@ -67,4 +69,5 @@
   letter-spacing: 2px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 4px;
 }

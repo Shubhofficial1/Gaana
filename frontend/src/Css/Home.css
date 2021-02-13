@@ -1,9 +1,18 @@
+/* first container */
 .home {
-  /* height: 100vh;
-  width: 100vw; */
-  padding: 20px;
+  height: 100vh;
+  /* width: 100vw;  */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* added for scrolling effect */
+  overflow-y: scroll;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* the music text on top */
 .home__title {
   padding: 10px;
   padding-left: 20px;
@@ -12,6 +21,8 @@
   letter-spacing: 2px;
   font-family: 'Poppins', sans-serif;
 }
+
+/* used to apply border to individual section around them */
 .one {
   border: 1px solid #f8f7de;
   border-radius: 15px;
@@ -19,8 +30,10 @@
   margin-bottom: 20px;
 }
 
+/* container for global songs text and see all text */
 .home__global {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -29,6 +42,7 @@
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 .home__global__seeall {
@@ -44,46 +58,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  /* overflow-x: scroll; */
   flex-wrap: wrap;
   margin-bottom: 20px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  min-width: 140px;
-  height: 160px;
-  margin: 15px;
-  border-radius: 12px;
-  border: 1px solid #fbf6f0;
-  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.card__image {
-  width: 100px;
-  height: 100px;
-  border-radius: 15px;
-}
-
-.card__name {
-  font-size: 12px;
-  font-family: 'Poppins', sans-serif;
-  margin-top: 5px;
-}
-
-.card__singer {
-  font-size: 10px;
-  font-weight: 600;
-  color: #999b84;
-  font-family: 'Poppins', sans-serif;
-  margin-top: 5px;
 }

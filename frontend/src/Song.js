@@ -1,39 +1,33 @@
 const globalSongs = [
   {
     _id: '1',
-    name: 'Roop Tera Mastana',
-    singer: 'Kishore Kumar',
+    name: 'Nit Nit',
+    singer: 'Jasleen Royale',
     color: '#a4ebf3',
+    imageUrl:
+      'https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/cnbx7modipu3o9oi_1581687089.jpeg?tr=w-758,h-433',
   },
   {
     _id: '2',
-    name: 'Lag jaa gale',
-    singer: 'Lata Mangeshkar',
+    name: 'Kabira',
+    singer: 'Tochi Raina',
     color: '#f9f871',
+    imageUrl: 'https://pluckguitar.com/wp-content/uploads/2014/04/lg8.jpg',
   },
   {
     _id: '3',
-    name: 'Pehla Nasha',
-    singer: 'Udit Narayan',
+    name: 'Hawayien',
+    singer: 'Arijit Singh',
     color: '#eff8ff',
+    imageUrl:
+      'https://3.bp.blogspot.com/-PEoQQRjB6nI/WpLB0fPwxSI/AAAAAAAACKE/SmwHGDdvI0MZoMtRuoNUtCLm9KIR4MnAQCLcBGAs/s1600/Hawayein-Arijit-Singh-Piano-Notes.jpg',
   },
   {
     _id: '4',
-    name: 'Aye Kash ki hum',
-    singer: 'Kumar Sanu',
+    name: 'Perfect',
+    singer: 'Ed Sheeran',
     color: '#ef4f4f',
-  },
-  {
-    _id: '5',
-    name: 'Kal Ho Na Ho',
-    singer: 'Sonu Nigam',
-    color: '#b088f9',
-  },
-  {
-    _id: '6',
-    name: 'Kabira',
-    singer: 'Arijit Singh',
-    color: '#f2dcbb',
+    imageUrl: 'https://i.ytimg.com/vi/CWG-GDfejmY/maxresdefault.jpg',
   },
 ]
 

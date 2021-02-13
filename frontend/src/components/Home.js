@@ -2,6 +2,8 @@ import React from 'react'
 import '../Css/Home.css'
 import globalSongs from '../Song'
 import SongCard from './SongCard'
+import AudioPlayer from 'react-h5-audio-player'
+import 'react-h5-audio-player/lib/styles.css'
 
 const Home = () => {
   return (
@@ -36,3 +38,12 @@ const Home = () => {
 }
 
 export default Home
+
+/*
+
+      <AudioPlayer
+        autoPlay
+        src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
+        onPlay={(e) => console.log('onPlay')}
+      />
+*/

@@ -2,6 +2,7 @@ import './App.css'
 import Sidebar from './components/Sidebar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
+import Rightbar from './components/Rightbar'
 function App() {
   return (
     <Router>
@@ -42,6 +43,7 @@ function App() {
             rocks
           </Route>
         </Switch>
+        <Rightbar />
       </div>
     </Router>
   )

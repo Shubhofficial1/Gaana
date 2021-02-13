@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../Css/Card.css'
 const SongCard = ({ song }) => {
   const mystyle = {
     backgroundColor: song.color,
@@ -15,3 +15,10 @@ const SongCard = ({ song }) => {
 }
 
 export default SongCard
+
+{
+  /*
+  
+        <img className='card__image_1' src={song.imageUrl} alt=''></img>
+  */
+}
