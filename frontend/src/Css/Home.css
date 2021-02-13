@@ -1,10 +1,8 @@
-/* first container */
 .home {
   height: 100vh;
-  /* width: 100vw;  */
+  width: 800px;
   padding-left: 20px;
   padding-right: 20px;
-  /* added for scrolling effect */
   overflow-y: scroll;
 }
 
@@ -12,7 +10,6 @@
   display: none;
 }
 
-/* the music text on top */
 .home__title {
   padding: 10px;
   padding-left: 20px;
@@ -22,7 +19,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* used to apply border to individual section around them */
 .one {
   border: 1px solid #f8f7de;
   border-radius: 15px;
@@ -30,7 +26,6 @@
   margin-bottom: 20px;
 }
 
-/* container for global songs text and see all text */
 .home__global {
   display: flex;
   align-items: center;

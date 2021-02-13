@@ -1,39 +1,47 @@
 import React from 'react'
 import '../Css/Rightbar.css'
-import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile'
 import ArtistGrid from './ArtistGrid'
+import artists from '../modals/Artists'
+import AudioPlayer from 'react-h5-audio-player'
 
 const Rightbar = () => {
-  const artists = [
-    {
-      name: 'arijit Singh',
-      color: '#e36bae',
-    },
-    {
-      name: 'Shaan',
-      color: '#845ec2',
-    },
-    {
-      name: 'Sonu Nigam',
-      color: '#ffdf91',
-    },
-    {
-      name: 'Jasleen Royale',
-      color: '#7579e7',
-    },
-    {
-      name: 'Maithali',
-      color: '#28df99',
-    },
-    {
-      name: 'Sunidhi Chauhan',
-      color: '#34626c',
-    },
-  ]
-
+  const mystyle = {
+    backgroundColor: '#ffba93',
+  }
   return (
     <div className='rightbar'>
-      <div className='rightbar__notification'>
+      <span className='rightbar__artist__title'>Top Artists</span>
+      <div className='rightbar__artist'>
+        {artists.map((artist) => (
+          <ArtistGrid key={artist.name} artist={artist} />
+        ))}
+      </div>
+      <div className='rightbar__musicplayer'>
+        <span>Now Playing</span>
+        <div className='rightbar__color' style={mystyle}></div>
+        <div className='rightbar__songname'>Song name</div>
+        <div className='rightbar__singername'>Singer name</div>
+        <AudioPlayer
+          autoPlay
+          style={{
+            backgroundColor: 'white',
+            margin: '5px',
+          }}
+          src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
+          onPlay={(e) => console.log('onPlay')}
+          showJumpControls={false}
+        />
+      </div>
+    </div>
+  )
+}
+
+export default Rightbar
+
+/*
+import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile'
+
+   <div className='rightbar__notification'>
         <span>Notification</span>
         <div className='rightbar__item'>
           <InsertDriveFileIcon />
@@ -45,15 +53,4 @@ const Rightbar = () => {
         </div>
       </div>
 
-      <span className='rightbar__artist__title'>Top Artists</span>
-
-      <div className='rightbar__artist'>
-        {artists.map((artist) => (
-          <ArtistGrid artist={artist} />
-        ))}
-      </div>
-    </div>
-  )
-}
-
-export default Rightbar
+*/

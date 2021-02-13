@@ -1,10 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  left: 0px;
-  /* width: 17%; */
   min-width: 220px;
+  height: 100vh;
   border-right: 1px solid rgba(234, 237, 237);
 }
 
