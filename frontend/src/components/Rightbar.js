@@ -3,11 +3,12 @@ import '../Css/Rightbar.css'
 import ArtistGrid from './ArtistGrid'
 import artists from '../modals/Artists'
 import AudioPlayer from 'react-h5-audio-player'
+import 'react-h5-audio-player/lib/styles.css'
+import { useStateValue } from '../StateProvider'
 
 const Rightbar = () => {
-  const mystyle = {
-    backgroundColor: '#ffba93',
-  }
+  const [{ basket, dispatch }] = useStateValue()
+
   return (
     <div className='rightbar'>
       <span className='rightbar__artist__title'>Top Artists</span>
@@ -16,41 +17,28 @@ const Rightbar = () => {
           <ArtistGrid key={artist.name} artist={artist} />
         ))}
       </div>
-      <div className='rightbar__musicplayer'>
-        <span>Now Playing</span>
-        <div className='rightbar__color' style={mystyle}></div>
-        <div className='rightbar__songname'>Song name</div>
-        <div className='rightbar__singername'>Singer name</div>
-        <AudioPlayer
-          autoPlay
-          style={{
-            backgroundColor: 'white',
-            margin: '5px',
-          }}
-          src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
-          onPlay={(e) => console.log('onPlay')}
-          showJumpControls={false}
-        />
-      </div>
+
+      {basket?.map((item) => (
+        <div className='rightbar__musicplayer'>
+          <span>Now Playing</span>
+          <div className='rightbar__color'></div>
+          <div className='rightbar__songname'>{item.name}</div>
+          <div className='rightbar__singername'>{item.singer}</div>
+          <AudioPlayer
+            autoPlay
+            style={{
+              backgroundColor: 'white',
+              margin: '5px',
+            }}
+            src={item.songUrl}
+            onPlay={(e) => console.log('onPlay')}
+            showJumpControls={false}
+            volume={0.5}
+          />
+        </div>
+      ))}
     </div>
   )
 }
 
 export default Rightbar
-
-/*
-import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile'
-
-   <div className='rightbar__notification'>
-        <span>Notification</span>
-        <div className='rightbar__item'>
-          <InsertDriveFileIcon />
-          <span>Playlist added </span>
-        </div>
-        <div className='rightbar__item'>
-          <InsertDriveFileIcon />
-          <span>Playlist added </span>
-        </div>
-      </div>
-
-*/

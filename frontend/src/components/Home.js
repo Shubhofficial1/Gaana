@@ -1,9 +1,7 @@
 import React from 'react'
 import '../Css/Home.css'
-import globalSongs from '../Song'
+import globalSongs from '../modals/Song'
 import SongCard from './SongCard'
-import AudioPlayer from 'react-h5-audio-player'
-import 'react-h5-audio-player/lib/styles.css'
 
 const Home = () => {
   return (
@@ -16,7 +14,14 @@ const Home = () => {
         </div>
         <div className='song__row'>
           {globalSongs.map((song) => (
-            <SongCard key={song._id} song={song} color={song.color} />
+            <SongCard
+              key={song.id}
+              id={song.id}
+              name={song.name}
+              singer={song.singer}
+              color={song.color}
+              songUrl={song.songUrl}
+            />
           ))}
         </div>
       </div>
@@ -28,8 +33,15 @@ const Home = () => {
           <h1 className='home__global__seeall'>See all</h1>
         </div>
         <div className='song__row'>
-          {globalSongs.map((song) => (
-            <SongCard key={song._id} song={song} color={song.color} />
+          {globalSongs.map((song, index) => (
+            <SongCard
+              key={index}
+              id={song.id}
+              name={song.name}
+              singer={song.singer}
+              color={song.color}
+              songUrl={song.songUrl}
+            />
           ))}
         </div>
       </div>
@@ -38,12 +50,3 @@ const Home = () => {
 }
 
 export default Home
-
-/*
-
-      <AudioPlayer
-        autoPlay
-        src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
-        onPlay={(e) => console.log('onPlay')}
-      />
-*/

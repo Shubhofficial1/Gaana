@@ -23,12 +23,6 @@
   border-radius: 15px;
 }
 
-.card__image_1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 15px;
-}
-
 .card__name {
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
@@ -42,4 +36,8 @@
   color: #999b84;
   font-family: 'Poppins', sans-serif;
   margin-top: 5px;
+}
+
+.playIcon {
+  color: white;
 }

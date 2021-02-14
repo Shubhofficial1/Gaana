@@ -1,6 +1,6 @@
 .rightbar {
   height: 100vh;
-  width: 350px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   border-left: 1px solid rgba(234, 237, 237);
@@ -11,36 +11,6 @@
     display: none;
   }
 }
-/* 
-.rightbar__notification {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  padding-left: 20px;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.rightbar__item {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  padding: 10px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.04);
-}
-
-.rightbar__item .MuiSvgIcon-root {
-  margin-right: 20px;
-  color: rgba(234, 237, 237);
-}
-
-.rightbar__item > span {
-  font-size: 10px;
-  color: gray;
-  font-family: 'Poppins', sans-serif;
-} */
 
 .rightbar__artist__title {
   display: flex;
@@ -67,20 +37,23 @@
 .rightbar__musicplayer {
   border: 1px solid rgba(234, 237, 237);
   border-radius: 10px;
-  margin: 10px;
-  height: 300px;
-  padding-top: 20px;
+  margin: 30px;
+  height: 280px;
+  padding: 10px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #fcf1f1;
+  /* background-color: #495057; */
+  background-color: #ff4646;
 }
 
 .rightbar__musicplayer > span {
   font-size: 18px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  color: white;
 }
 
 .rightbar__color {
@@ -88,6 +61,7 @@
   height: 120px;
   border-radius: 10px;
   margin-top: 10px;
+  background-color: #ffa5a5;
 }
 
 .rightbar__songname {
@@ -96,6 +70,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   padding-top: 10px;
+  color: white;
 }
 
 .rightbar__singername {
@@ -105,4 +80,5 @@
   font-weight: 400;
   padding-top: 5px;
   letter-spacing: 1px;
+  color: #ffe3de;
 }
