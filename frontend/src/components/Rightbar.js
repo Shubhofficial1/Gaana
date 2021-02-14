@@ -19,9 +19,14 @@ const Rightbar = () => {
       </div>
 
       {basket?.map((item) => (
-        <div className='rightbar__musicplayer'>
+        <div key={item.id} className='rightbar__musicplayer'>
           <span>Now Playing</span>
-          <div className='rightbar__color'></div>
+          <div
+            className='rightbar__color'
+            style={{
+              backgroundColor: item.color,
+            }}
+          ></div>
           <div className='rightbar__songname'>{item.name}</div>
           <div className='rightbar__singername'>{item.singer}</div>
           <AudioPlayer
@@ -33,7 +38,7 @@ const Rightbar = () => {
             src={item.songUrl}
             onPlay={(e) => console.log('onPlay')}
             showJumpControls={false}
-            volume={0.5}
+            volume={0.4}
           />
         </div>
       ))}

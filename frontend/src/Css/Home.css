@@ -56,3 +56,18 @@
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
+.home__trending {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.table__title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}

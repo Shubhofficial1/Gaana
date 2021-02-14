@@ -44,8 +44,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* background-color: #495057; */
-  background-color: #ff4646;
+  background-color: #495057;
+  /* background-color: #ff4646; */
 }
 
 .rightbar__musicplayer > span {
@@ -61,11 +61,11 @@
   height: 120px;
   border-radius: 10px;
   margin-top: 10px;
-  background-color: #ffa5a5;
+  /* background-color: #ffa5a5; */
 }
 
 .rightbar__songname {
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
