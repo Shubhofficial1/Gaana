@@ -1,0 +1,7 @@
+.discover {
+  height: 100vh;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}

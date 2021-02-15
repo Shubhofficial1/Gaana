@@ -27,12 +27,8 @@ const Sidebar = () => {
           <h4>Menu</h4>
           <ListTile title='Home' src='/' Icon={HomeIcon} />
           <ListTile title='Search' src='/search' Icon={SearchIcon} />
-          <ListTile
-            title='Discover'
-            src='/discover'
-            Icon={OfflineBoltIcon}
-          />{' '}
-          <ListTile title='Album' src='/album' Icon={AlbumIcon} />{' '}
+          <ListTile title='Discover' src='/discover' Icon={OfflineBoltIcon} />
+          <ListTile title='Album' src='/album' Icon={AlbumIcon} />
           <ListTile title='Artists' src='/artists' Icon={StarsIcon} />
         </div>
 

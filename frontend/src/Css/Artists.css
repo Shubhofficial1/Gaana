@@ -1,0 +1,71 @@
+.artists {
+  height: 100vh;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.artists__title {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.artists__container {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.artists__indians {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.indians__title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.indians__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.artists__international {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.international__title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.international__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

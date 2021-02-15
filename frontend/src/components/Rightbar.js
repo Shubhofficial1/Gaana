@@ -11,7 +11,7 @@ const Rightbar = () => {
 
   return (
     <div className='rightbar'>
-      <span className='rightbar__artist__title'>Top Artists</span>
+      <span className='rightbar__artist__title'>Trending Artists</span>
       <div className='rightbar__artist'>
         {artists.map((artist) => (
           <ArtistGrid key={artist.name} artist={artist} />

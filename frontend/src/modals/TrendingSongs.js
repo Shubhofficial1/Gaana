@@ -47,11 +47,11 @@ const TrendingSongs = [
   },
   {
     id: '7',
-    name: 'Baatein Karo',
-    singer: 'Vayu',
+    name: 'Morni Banke',
+    singer: 'Guru Randhawa',
     color: '#b088f9',
     songUrl:
-      'https://lliili.ililllliliillilliliil.li/mp3/hq/Vayu_Baatein_Karo_%7C_Official_Music_Video.mp3?t=_1613327266&t=_1613327266',
+      'https://llliliiil.ililllliliillilliliil.li/mp3/hq/Guru_Randhawa_Morni_Banke_Video_%7C_Badhaai_Ho_%7C_Ta.mp3?t=_1613390596&t=_1613390596',
   },
   {
     id: '8',
@@ -63,11 +63,11 @@ const TrendingSongs = [
   },
   {
     id: '9',
-    name: 'Thappad',
-    singer: 'Arijit Singh',
+    name: 'Magenta Riddim',
+    singer: 'DJ Snake',
     color: '#99a8b2',
     songUrl:
-      'https://lliili.ililllliliillilliliil.li/direct/4toIYFG0baE/Ek_Tukda_Dhoop_THAPPAD_%7C_Arijit_Singh_%7C_Ek_tukda.mp3?t=_1613327850',
+      'https://il.ilill.li/mp3/DJ_Snake_Magenta_Riddim.mp3?t=_1613331474',
   },
   {
     id: '10',
