@@ -1,0 +1,43 @@
+.discover {
+  height: 100vh;
+  width: 800px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+.discover__title {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.discover__container {
+  border: 1px solid #f8f7de;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.discover__genrescontainer {
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.discover__genrestitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.discover__genresrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

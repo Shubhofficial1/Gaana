@@ -1,0 +1,60 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #faf3e0;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.table__tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.table__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table__id {
+  font-size: 14px;
+  font-weight: 400;
+  color: #383e56;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+}
+
+.table__image {
+  height: 50px;
+  min-width: 50px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.table__data {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.table__name {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table__singer {
+  font-size: 10px;
+  font-weight: 600;
+  color: #999b84;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+}
+
+.table__icon {
+  color: #f0c38e;
+}

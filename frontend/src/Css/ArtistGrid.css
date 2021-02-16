@@ -1,0 +1,21 @@
+.list__container {
+  margin: 2px;
+}
+
+.list {
+  width: 50px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.list:hover {
+  transform: scale(1.1);
+}
+
+.list__name {
+  font-size: 8px;
+  padding-left: 15px;
+  text-transform: capitalize;
+}

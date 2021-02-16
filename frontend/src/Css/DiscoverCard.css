@@ -1,0 +1,38 @@
+.discovercard {
+  margin: 10px;
+  height: 100px;
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 3px 6px 5px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .discovercard {
+    width: 155px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .discovercard {
+    width: 145px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .discovercard {
+    width: 135px;
+  }
+}
+
+.discovercard:hover {
+  transform: scale(1.05);
+}
+
+.discovercard__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
