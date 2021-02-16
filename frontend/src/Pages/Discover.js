@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import DiscoverCard from '../components/DiscoverCard'
 import '../Css/Discover.css'
 import BrowseAllGenres from '../modals/BrowseAllGenres'
@@ -41,6 +42,12 @@ const Discover = () => {
       </div>
     </div>
   )
+=======
+import '../Css/Discover.css'
+
+const Discover = () => {
+  return <div className='discover'>discover</div>
+>>>>>>> 9b7125dd3c561fc70bf09bddde040facb81cd66d
 }
 
 export default Discover
