@@ -5,3 +5,14 @@
   padding-right: 20px;
   overflow-y: scroll;
 }
+
+/* code for search bar  */
+
+.input {
+  width: 700px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.search {
+}
