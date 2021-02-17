@@ -39,19 +39,11 @@ const TrendingSongs = [
   },
   {
     id: '6',
-<<<<<<< HEAD
     name: 'Deh Shiva',
     singer: 'Jasleen Royal',
     color: '#ffeebb',
     songUrl:
       'https://lliili.ililllliliillilliliil.li/mp3/hq/Deh_Shiva_Lyrical_Video_%7C_Jasleen_Royal_%7C_Kesari.mp3?t=_1613503216&t=_1613503216',
-=======
-    name: 'Namo Namo',
-    singer: 'Amit Trivedi',
-    color: '#ffeebb',
-    songUrl:
-      'https://llliliiil.ililllliliillilliliil.li/mp3/hq/Namo_Namo_Lyrical_%7C_Kedarnath_%7C_Sushant_Rajput_%7C.mp3?t=_1613326931&t=_1613326931',
->>>>>>> 9b7125dd3c561fc70bf09bddde040facb81cd66d
   },
   {
     id: '7',

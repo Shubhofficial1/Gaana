@@ -1,7 +1,6 @@
 .discover {
   height: 100vh;
   width: 800px;
-<<<<<<< HEAD
   padding-left: 10px;
   padding-right: 10px;
   overflow-y: scroll;
@@ -41,9 +40,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-=======
   padding-left: 20px;
   padding-right: 20px;
   overflow-y: scroll;
->>>>>>> 9b7125dd3c561fc70bf09bddde040facb81cd66d
 }
