@@ -19,6 +19,7 @@ const Artists = () => {
                 id={artist.id}
                 name={artist.name}
                 color={artist.color}
+                imageUrl={artist.imageUrl}
               ></ArtistCard>
             ))}
           </div>
@@ -35,6 +36,7 @@ const Artists = () => {
                 id={artist.id}
                 name={artist.name}
                 color={artist.color}
+                imageUrl={artist.imageUrl}
               ></ArtistCard>
             ))}
           </div>

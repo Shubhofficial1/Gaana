@@ -8,11 +8,12 @@
 
 /* code for search bar  */
 
-.input {
-  width: 700px;
-  margin: 20px;
-  padding: 10px;
+.search {
+  display: flex;
+  flex-direction: column;
 }
 
-.search {
+.input {
+  margin: 20px;
+  padding: 10px;
 }
