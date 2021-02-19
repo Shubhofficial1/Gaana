@@ -22,7 +22,7 @@ const IndianArtists = [
       'https://i.pinimg.com/236x/ab/99/18/ab9918d1a61553ee8d82c3b4941a49f8.jpg',
   },
   {
-    id: '1',
+    id: '4',
     name: 'Jasleen Royale',
     color: '#7579e7',
     imageUrl:
